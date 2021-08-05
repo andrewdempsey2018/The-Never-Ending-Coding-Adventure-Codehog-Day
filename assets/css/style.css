@@ -5,24 +5,26 @@
 }
 
 .textbox-container {
+    position: fixed;
     bottom: 0;
-    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .text-box {
     background-color: black;
     color: cornsilk;
-    border: solid 3px cornsilk;
+    border: solid 10px cornsilk;
 }
 
 .text-box-main {
-    width: 60%;
+    width: 66%;
     height: 300px;
-    float: left;
 }
 
 .text-box-second {
-    width: 30%;
     height: 300px;
-    float: right;
+    width: 33%;
 }
