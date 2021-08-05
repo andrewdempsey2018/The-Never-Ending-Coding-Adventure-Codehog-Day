@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.textbox-container {
+    bottom: 0;
+    position: relative;
+}
+
+.text-box {
+    background-color: black;
+    color: cornsilk;
+    border: solid 3px cornsilk;
+}
+
+.text-box-main {
+    width: 60%;
+    height: 300px;
+    float: left;
+}
+
+.text-box-second {
+    width: 30%;
+    height: 300px;
+    float: right;
+}
