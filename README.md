@@ -67,19 +67,19 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 Write something nice here, Andrew. 
 
 ### John
-Write something nice here, Andrew. 
+Write something nice here, John. 
 
 ### Yorick
-Write something nice here, Andrew. 
+Write something nice here, Yorick. 
 
 ### Katherine
-Write something nice here, Andrew. 
+Write something nice here, Katherine. 
 
 ### Patrik
-Write something nice here, Andrew. 
+Write something nice here, Patrik. 
 
 ### Helena
-Write something nice here, Andrew. 
+Write something nice here, Helena. 
 
 
 ## Credits 
