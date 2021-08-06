@@ -76,3 +76,15 @@ body {
     height: 300px;
     width: 33%;
 }
+
+#next{
+    background-color: blue;
+    width: 100px;
+    height: 35px;
+}
+
+#input{
+    color: black;
+    text-shadow: 0 0 white;
+    background: white!important;
+}

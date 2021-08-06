@@ -7,6 +7,10 @@
     <title>The Never Ending Coding Adventure Codehog Day</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/d6c4500621.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="assets/static/footer.js"></script>
+    <script src="assets/static/textChanger.js"></script>
 </head>
 <body>
     <!-- This div is used to demonstrate the textTyper to display text in the textbox -->
@@ -14,18 +18,20 @@
 
     <!-- This section contains the textboxes used to display text and character information -->
     <section class="textbox-container">
-        <div id="text-box-main" class="text-box text-box-main" onmouseenter="stopType();" onmouseleave="textTyper();">
-            <p>placeholder text</p>
+        <div id="text-box-main" class="text-box text-box-main">
+            <p id="text">Good Morning!</p>
         </div>
         <div id="text-box-second" class="text-box text-box-second">
-            <input type="submit" value="Next" class="next-button">
-            <input type="submit" value="complete text" class="complete-button">
+            <!-- <input type="submit" value="Next" class="next-button">
+            <input type="submit" value="complete text" class="complete-button"> -->
+            <button class="button" id="next"><span>Next</span></button>
+            <input id="input" type="text" disabled autocomplete="off">
             <p class="health-text">Health: <span id="health"><i class="fas fa-heart"></i> <i class="fas fa-heart"></i> <i class="fas fa-heart"></i></span></p>
             <p class="energy-text">Energy: <span id="energy"><i class="fas fa-bolt"></i> <i class="fas fa-bolt"></i> <i class="fas fa-bolt"></i></span></p>
             <p class="inebriation-text">Inebriation: <span id="inebriation"><i class="fas fa-frown"></i> <i class="fas fa-frown"></i> <i class="fas fa-frown"></i></span></p>
         </div>
     </section>
-
-    <script src="assets/static/footer.js"></script>
 </body>
 </html>
+
+<!-- onmouseenter="stopType();" onmouseleave="textTyper(); -->
