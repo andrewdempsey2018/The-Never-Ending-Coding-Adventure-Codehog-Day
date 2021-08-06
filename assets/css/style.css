@@ -3,7 +3,7 @@
     padding: 0;
     border: none;
 }
-
+/* Styiling the textboxes and position for the whole boxes section */
 .textbox-container {
     position: fixed;
     bottom: 0;
