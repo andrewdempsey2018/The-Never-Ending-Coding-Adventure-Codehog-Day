@@ -28,3 +28,10 @@
     height: 300px;
     width: 33%;
 }
+
+/* This styles the demonstration div */
+.demonstration {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
