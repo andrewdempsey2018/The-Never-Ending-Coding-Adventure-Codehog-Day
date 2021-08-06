@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.textbox-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.text-box {
+    background-color: black;
+    color: cornsilk;
+    border: solid 10px cornsilk;
+}
+
+.text-box-main {
+    width: 66%;
+    height: 300px;
+}
+
+.text-box-second {
+    height: 300px;
+    width: 33%;
+}
