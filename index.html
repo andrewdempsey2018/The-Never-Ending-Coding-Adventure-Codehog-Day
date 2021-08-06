@@ -9,8 +9,12 @@
     <script src="https://kit.fontawesome.com/d6c4500621.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- This div is used to demonstrate the textTyper to display text in the textbox -->
+    <div class="demonstration" onclick="textTyper();">Click me!</div>
+
+    <!-- This section contains the textboxes used to display text and character information -->
     <section class="textbox-container">
-        <div id="text-box-main" class="text-box text-box-main">
+        <div id="text-box-main" class="text-box text-box-main" onmouseenter="stopType();" onmouseleave="textTyper();">
             <p>placeholder text</p>
         </div>
         <div id="text-box-second" class="text-box text-box-second">

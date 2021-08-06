@@ -14,7 +14,7 @@ body {
     padding: 0;
     border: none;
 }
-
+/* Styiling the textboxes and position for the whole boxes section */
 .textbox-container {
     position: fixed;
     bottom: 0;
@@ -75,5 +75,4 @@ body {
     padding-left: 25px;
     height: 300px;
     width: 33%;
-    border-left: double;
 }
