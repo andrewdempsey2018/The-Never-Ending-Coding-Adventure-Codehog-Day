@@ -1,12 +1,15 @@
 $(document).ready(function () {
     count = 0;
+    console.log(count)
     $('#next').click(function () {
         count++;
+        console.log(count)
         textChanger();
     });
     $('input').on("change", function () {
         if ($('#input').val() === "good") {
             count++;
+            console.log(count)
             textChanger();
         }
     });
@@ -27,7 +30,7 @@ function textChanger() {
     if (count === 3) {
         $('body').css('background', 'url("/assets/media/kitchen.png") no-repeat center center fixed');
         $('#pong').css('display', 'none');
-        $('#text').text('What shall I have for breakfast?');
+        $('#text').text('What do you want for breakfast?');
     }
     if (count === 4) {
         $('#text').text('Tea? Coffee? Whiskey?....');
