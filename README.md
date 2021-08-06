@@ -72,7 +72,7 @@ Write something nice here, John.
 Write something nice here, Yorick. 
 
 ### Katherine
-Write something nice here, Katherine. 
+I've been gaming since I was about 8.  I had an Acorn Electron. These days I'm a Simmer.  The fastest thing I can type is "testingcheatsenabled true".  This is a Sims joke that probably no one will understand.
 
 ### Patrik
 Write something nice here, Patrik. 
