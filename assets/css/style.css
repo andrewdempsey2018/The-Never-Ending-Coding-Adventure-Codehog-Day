@@ -1,3 +1,12 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/*Press Start 2P is a bitmap font based on the font design from 1980s Namco arcade games. 
+It works best at sizes of 8px, 16px and other multiples of 8.*/
+
+/* font-family: 'Press Start 2P', cursive; */
+
 html {
     height: 100vh;
 }
