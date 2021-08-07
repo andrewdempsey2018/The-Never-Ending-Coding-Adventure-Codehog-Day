@@ -18,20 +18,23 @@
 
     <div id="image-container">
         <img id="image" src="assets/media/bedroom.png" alt="game image">a
-        <a href=""><img id="poster" src="assets/media/pong.jpeg" alt="game image"></a>
+        <a href=""><img id="pong" class="poster" src="assets/media/pong.jpeg" alt="pong poster"></a>
+        <a href=""><img id="breakout" class="poster" src="assets/media/breakout.jpeg" alt="breakout poster"></a>
+        <a href=""><img id="bird" class="poster" src="assets/media/bird.gif" alt="flappy bird poster"></a>
+        <img id="sleeping" src="assets/media/sleeping.gif" alt="sleeping">
     </div>
 
     <!-- This section contains the textboxes used to display text and character information -->
     <section class="textbox-container">
         <div id="text-box-main" class="text-box text-box-main">
-            <p id="text">Good Morning!</p>
+            <p id="text">Good Morning Coder! What a beautiful morning, a fine day to begin your journey.</p>
         </div>
         <div id="text-box-second" class="text-box text-box-second">
             <!-- <input type="submit" value="Next" class="next-button">
             <input type="submit" value="complete text" class="complete-button"> -->
-            <p class="health-text">Health: <span id="health"><i class="fas fa-heart"></i> <i class="fas fa-heart"></i> <i class="fas fa-heart"></i></span> <i class="fas fa-heart"></i> <i class="fas fa-heart"></i></span></p>
-            <p class="energy-text">Energy: <span id="energy"><i class="fas fa-bolt"></i> <i class="fas fa-bolt"></i> <i class="fas fa-bolt"></i></span> <i class="fas fa-bolt"></i> <i class="fas fa-bolt"></i></span></p>
-            <p class="inebriation-text">Inebriation: <span id="inebriation"><i class="fas fa-frown"></i> <i class="fas fa-frown"></i> <i class="fas fa-frown"></i></span> <i class="fas fa-frown"></i> <i class="fas fa-frown"></i></span></p>
+            <p class="health-text">Health: <span id="health"><i id="h-1" class="fas fa-heart"></i> <i id="h-2" class="fas fa-heart"></i> <i id="h-3" class="fas fa-heart"></i></span> <i id="h-4" class="fas fa-heart"></i> <i id="h-5" class="fas fa-heart"></i></span></p>
+            <p class="energy-text">Energy: <span id="energy"><i id="e-1" class="fas fa-bolt"></i> <i id="e-2" class="fas fa-bolt"></i> <i id="e-3" class="fas fa-bolt"></i></span> <i id="e-4" class="fas fa-bolt"></i> <i id="e-5" class="fas fa-bolt"></i></span></p>
+            <p class="inebriation-text">Inebriation: <span id="inebriation"><i id="i-1" class="fas fa-frown"></i> <i id="i-2" class="fas fa-frown d-none"></i> <i id="i-3" class="fas fa-frown d-none"></i></span> <i id="i-4" class="fas fa-frown d-none"></i> <i id="i-5" class="fas fa-frown d-none"></i></span></p>
             <div id="controls">
                 <button id="next" class="button"><span>Next</span></button>
                 <input id="input" type="text" disabled autocomplete="off">

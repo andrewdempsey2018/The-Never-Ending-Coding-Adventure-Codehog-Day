@@ -25,11 +25,31 @@ body {
     width: 100%;
 }
 
-#poster{
+.poster{
     position: absolute;
     height: 15vh;
     width: 15vw;
+}
+
+#pong{
     margin: 17% 60%;
+}
+
+#breakout{
+    margin: 17% 60%;
+    display: none;
+}
+
+#bird{
+    margin: 17% 60%;
+    display: none;
+}
+
+#sleeping{
+    position: absolute;
+    display: none;
+    width: 100vw;
+    height: 100vh;
 }
 
 * {
@@ -120,9 +140,9 @@ body {
 }
 
 .d-none{
-    display: none;
+    display: none!important;
 }
 
 .d-block{
-    display: block;
+    display: block!important;
 }
