@@ -66,7 +66,7 @@ The live link can be found here - [The Never Ending Coding Adventure: Codehog Da
 Write something nice here, Andrew. 
 
 ### John
-Write something nice here, John. 
+Gaming has always been a passion of mine so this hackathon was a must. A retro game will make a proud addition to the portfolio and it was a great experience shaping it with the team. Hope you all enjoy it.
 
 ### Yorick
 Write something nice here, Yorick. 
@@ -85,6 +85,13 @@ Write something nice here, Helena.
 
 <p style="color:yellow;">In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
+
+- [Text Box - Final Fantasy 7 Style Dialouge box](https://codepen.io/terrancerobb/pen/bnuqe)
+
+- [Sleeping gif](https://wifflegif.com/gifs/136337-pixel-art-sleeping-gif)
+- [Pong Poster](https://live.staticflickr.com/3320/3669852343_2c2929e121_b.jpg)
+- [Breakout Poster](https://i.ebayimg.com/images/g/NEQAAOSw0YBgAKva/s-l300.jpg)
+- [Flappy Bird Poster](https://i.kym-cdn.com/photos/images/original/000/697/154/ada)
 
 ### Content 
 
