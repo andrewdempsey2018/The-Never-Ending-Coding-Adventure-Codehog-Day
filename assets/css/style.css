@@ -12,10 +12,44 @@ html {
 }
 
 body {
-    background: url('/assets/media/bedroom.png') no-repeat center center fixed;
+    background-color: white;
+    /* background: url('/assets/media/bedroom.png') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
-    background-position-y: -10vh;
+    height: 70vh; */
+    /* background-position-y: -10vh; */
+}
+
+#image{
+    position: absolute;
+    height: 85vh;
+    width: 100%;
+}
+
+.poster{
+    position: absolute;
+    height: 15vh;
+    width: 15vw;
+}
+
+#pong{
+    margin: 17% 60%;
+}
+
+#breakout{
+    margin: 17% 60%;
+    display: none;
+}
+
+#bird{
+    margin: 17% 60%;
+    display: none;
+}
+
+#sleeping{
+    position: absolute;
+    display: none;
+    width: 100vw;
+    height: 100vh;
 }
 
 * {
@@ -27,6 +61,7 @@ body {
 .textbox-container {
     position: fixed;
     bottom: 0;
+    min-height: fit-content;
     height: 18vh;
     width: 90%;
     display: flex;
@@ -86,9 +121,14 @@ body {
     width: 33%;
 }
 
+#controls{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #next{
     background-color: blue;
-    width: 100px;
+    width: 25%;
     height: 35px;
 }
 
@@ -96,4 +136,13 @@ body {
     color: black;
     text-shadow: 0 0 white;
     background: white!important;
+    width: 60%;
+}
+
+.d-none{
+    display: none!important;
+}
+
+.d-block{
+    display: block!important;
 }
