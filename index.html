@@ -14,7 +14,12 @@
 </head>
 <body>
     <!-- This div is used to demonstrate the textTyper to display text in the textbox -->
-    <div class="demonstration" onclick="textTyper();">Click me!</div>
+    <!-- <div class="demonstration" onclick="textTyper();">Click me!</div> -->
+
+    <div id="image-container">
+        <img id="image" src="assets/media/bedroom.png" alt="game image">a
+        <a href=""><img id="poster" src="assets/media/pong.jpeg" alt="game image"></a>
+    </div>
 
     <!-- This section contains the textboxes used to display text and character information -->
     <section class="textbox-container">
@@ -24,11 +29,13 @@
         <div id="text-box-second" class="text-box text-box-second">
             <!-- <input type="submit" value="Next" class="next-button">
             <input type="submit" value="complete text" class="complete-button"> -->
-            <button class="button" id="next"><span>Next</span></button>
-            <input id="input" type="text" disabled autocomplete="off">
-            <p class="health-text">Health: <span id="health"><i class="fas fa-heart"></i> <i class="fas fa-heart"></i> <i class="fas fa-heart"></i></span></p>
-            <p class="energy-text">Energy: <span id="energy"><i class="fas fa-bolt"></i> <i class="fas fa-bolt"></i> <i class="fas fa-bolt"></i></span></p>
-            <p class="inebriation-text">Inebriation: <span id="inebriation"><i class="fas fa-frown"></i> <i class="fas fa-frown"></i> <i class="fas fa-frown"></i></span></p>
+            <p class="health-text">Health: <span id="health"><i class="fas fa-heart"></i> <i class="fas fa-heart"></i> <i class="fas fa-heart"></i></span> <i class="fas fa-heart"></i> <i class="fas fa-heart"></i></span></p>
+            <p class="energy-text">Energy: <span id="energy"><i class="fas fa-bolt"></i> <i class="fas fa-bolt"></i> <i class="fas fa-bolt"></i></span> <i class="fas fa-bolt"></i> <i class="fas fa-bolt"></i></span></p>
+            <p class="inebriation-text">Inebriation: <span id="inebriation"><i class="fas fa-frown"></i> <i class="fas fa-frown"></i> <i class="fas fa-frown"></i></span> <i class="fas fa-frown"></i> <i class="fas fa-frown"></i></span></p>
+            <div id="controls">
+                <button id="next" class="button"><span>Next</span></button>
+                <input id="input" type="text" disabled autocomplete="off">
+            </div>
         </div>
     </section>
 </body>

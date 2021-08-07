@@ -1,15 +1,12 @@
 $(document).ready(function () {
     count = 0;
-    console.log(count)
     $('#next').click(function () {
         count++;
-        console.log(count)
         textChanger();
     });
     $('input').on("change", function () {
         if ($('#input').val() === "good") {
             count++;
-            console.log(count)
             textChanger();
         }
     });
@@ -28,7 +25,7 @@ function textChanger() {
         $('#next').prop('disabled', false).text('Next');
     }
     if (count === 3) {
-        $('body').css('background', 'url("/assets/media/kitchen.png") no-repeat center center fixed');
+        $('#image').attr("src", "assets/media/kitchen.png");;
         $('#pong').css('display', 'none');
         $('#text').text('What do you want for breakfast?');
     }

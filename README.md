@@ -66,7 +66,7 @@ The live link can be found here - [The Never Ending Coding Adventure: Codehog Da
 Write something nice here, Andrew. 
 
 ### John
-Write something nice here, John. 
+Gaming has always been a passion of mine so this hackathon was a must. A retro game will make a proud addition to the portfolio and it was a great experience shaping it with the team. Hope you all enjoy it.
 
 ### Yorick
 Write something nice here, Yorick. 
