@@ -16,6 +16,8 @@ $(document).ready(function () {
                 nextScreen();
             }
             if ($('#input').val() === "bad"){
+                txt = 'Back to bed!';
+                resetTyper();
                 sleepScreen();
             }
         }
@@ -49,7 +51,7 @@ $(document).ready(function () {
 
 function textChanger() {
     if (count === 1) {
-        txt = 'How did you sleep? make a choice: good; bad';
+        txt = 'How did you sleep? Was it a "good" or "bad" nights rest?';
         resetTyper();
         $('#input').prop('disabled', false);
         $('#next').prop('disabled', true).text('');
@@ -60,7 +62,7 @@ function textChanger() {
         $('#input').val("");
     }
     if (count === 3) {
-        txt = 'What do you want for breakfast?';
+        txt = 'You need something to get your day started. What do you want to perk yourself up?';
         resetTyper();
         $('#image').attr("src", "assets/media/kitchen.png");;
         $('#pong').css('display', 'none')
@@ -69,6 +71,7 @@ function textChanger() {
         $('#input').val("");
         $('#next').prop('disabled', false).text('Next');
         $('#i-2').addClass('green');
+        $('#h-5').removeClass('red');
         $('#e-5').removeClass('yellow');
     }
     if (count === 4) {
@@ -89,20 +92,27 @@ function textChanger() {
         resetTyper();
     }
     if (count === 6) {
-        txt = '30 seconds later...';
+        txt = '*30 seconds later...*';
         resetTyper();
     }
     if (count === 7) {
         if(whiskey){
-            txt = '*cough*';
+            txt = '*cough cough*';
+            $('#i-3').addClass('green');
+            $('#h-4').removeClass('red');
+            $('#e-4').removeClass('yellow');
         } else{
             txt = 'Ahh, I feel more energized and ready to get some work done!'
+            $('#i-2').removeClass('green');
+            $('#h-5').addClass('red');
+            $('#e-5').addClass('yellow');
         }
         resetTyper();
     }
     if (count === 8) {
         if(whiskey){
             txt = 'Work to start time...';
+            $('#i-4').addClass('green');
         } else{
             txt = 'Time to start working!';
         }
@@ -110,9 +120,6 @@ function textChanger() {
         $('#image').attr("src", "assets/media/office.png");;
         $('#breakout').css('display', 'none')
         $('#bird').css('display', 'block')
-        $('#i-3').addClass('green');
-        $('#e-4').removeClass('yellow');
-        $('#h-5, #h-4, #h-3').removeClass('red');
     }
     if (count === 9) {
         txt = 'Let me just get ready...';
@@ -149,6 +156,7 @@ function sleepScreen(){
         setTimeout(function () {
             document.location.href = "index.html"
         }, 5000);
+        $('#image').css('display', 'none');
         $('#sleeping').css('display', 'block');
         $('.textbox-container').addClass('d-none');
     }, 2000)

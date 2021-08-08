@@ -36,7 +36,7 @@ body {
 #image{
     position: relative;
     top: -40px;
-    max-height: 600px;
+    height: 600px!important;
     width: 900px;
     height: auto;
 }
@@ -160,9 +160,14 @@ body {
 }
 
 .text-box-second {
-    padding-left: 25px;
+    padding: 15px 25px;
     height: 300px;
     width: 33%;
+}
+
+#text{
+    font-size: 1.4rem!important;
+    padding: 20px;
 }
 
 #controls{
@@ -171,17 +176,44 @@ body {
 }
 
 #next{
+    font-size: .8rem;
     background-color: #ed5f63;
     width: 25%;
     height: 35px;
     border-radius: 5px;
 }
 
+#next-text{
+    font-size: .8rem;
+}
+
+#next:disabled{
+    color: #9e4245!important;
+}
+
 #input{
+    font-size: .8rem;
     color: black;
     text-shadow: 0 0 white;
     background: white!important;
     width: 60%;
+}
+
+#input:disabled{
+    background-color: #777171!important;
+}
+
+.health-text,
+.energy-text,
+.inebriation-text{
+    font-size: 1rem!important;
+}
+
+#h-1, #h-2, #h-3, #h-4, #h-5,
+#e-1, #e-2, #e-3, #e-4, #e-5,
+#i-1, #i-2, #i-3, #i-4, #i-5{
+    font-size: 1.4rem;
+    padding: 0px 1px;
 }
 
 .red{
