@@ -271,6 +271,7 @@ You could make a copy of the GitHub repository by "Forking" the original reposit
   - I've been gaming since I was about 8. I had an Acorn Electron. These days I'm a Simmer. The fastest thing I can type is "testingcheatsenabled true". This is a Sims joke that probably no one will understand.
 
 ### - [Patrik Österljung](https://github.com/oljung)
+  - Ever since I played the NES at my uncles when I was five, gaming has been a huge part of my life. When I saw this Hackathon, I had to join even though I knew nothing about what it mean. Now that I know, that it means working with a team to make a project take form, I can safely say this will not be my last. This has been awesome! Thank you guys and please enjoy the game!
   -
 
 ### - [Yorick van den Hurk](https://github.com/nowane)
