@@ -45,6 +45,8 @@ If this section grows too long, you may want to split it off into a separate fil
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](#)
 
+### Bugs we fixed
+
 ### Unfixed Bugs
 
 <p style="color:yellow;">You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
@@ -82,24 +84,21 @@ Write something nice here, Helena.
 
 
 ## Credits 
-
-<p style="color:yellow;">In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+### Code
+These code snippets from open sources has been used in the game.
 
 - [Text Box - Final Fantasy 7 Style Dialouge box](https://codepen.io/terrancerobb/pen/bnuqe)
+
+
+### Media
+The following images in the game was taken from the linked open source below.
 
 - [Sleeping gif](https://wifflegif.com/gifs/136337-pixel-art-sleeping-gif)
 - [Pong Poster](https://live.staticflickr.com/3320/3669852343_2c2929e121_b.jpg)
 - [Breakout Poster](https://i.ebayimg.com/images/g/NEQAAOSw0YBgAKva/s-l300.jpg)
 - [Flappy Bird Poster](https://i.kym-cdn.com/photos/images/original/000/697/154/ada)
+- [Bedroom](https://www.vecteezy.com/vector-art/157529-free-simple-bedroom-illustration)
+- [Macintosh](https://icon-icons.com/icon/macintosh/131159)
 
 ### Content 
 
-<p style="color:yellow;">- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-<p style="color:yellow;">- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
