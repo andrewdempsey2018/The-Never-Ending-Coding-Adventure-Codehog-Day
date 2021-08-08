@@ -11,12 +11,19 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
     height: 100vh;
 } */
 
+body {
+    background-color: #b0817f;
+}
+
+
+
+
 #wrapper {
-    background-color: #afa1a1;
+    background-color: #687483;
     height: 900px;
     width: 1060px;
     position: relative;
-    border: red 2px solid;
+    border: rgba(53, 48, 48, 0.158) 2px solid;
     overflow: auto;
     /* background-position-y: -10vh; */
     margin: auto;
@@ -91,22 +98,22 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
     /* padding: 5px 10px; */
     /* margin: 50px 50px 4vh; */
     margin-left: 25px;
-    background: #04009d;
-    background: -moz-linear-gradient(top, #04009d 0%, #06004d 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#04009d), color-stop(100%,#06004d));
-    background: -webkit-linear-gradient(top, #04009d 0%,#06004d 100%);
-    background: -o-linear-gradient(top, #04009d 0%,#06004d 100%);
-    background: -ms-linear-gradient(top, #04009d 0%,#06004d 100%);
-    background: linear-gradient(to bottom, #04009d 0%,#06004d 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04009d', endColorstr='#06004d',GradientType=0 );
+    background: #9e87cf;
+    background: -moz-linear-gradient(top, #9e87cf 0%, #413855 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9e87cf), color-stop(100%,#413855));
+    background: -webkit-linear-gradient(top, #9e87cf 0%,#413855 100%);
+    background: -o-linear-gradient(top, #9e87cf 0%,#413855 100%);
+    background: -ms-linear-gradient(top, #9e87cf 0%,#413855 100%);
+    background: linear-gradient(to bottom, #9e87cf 0%,#413855 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#413855', endColorstr='#413855',GradientType=0 );
 }
 
 .textbox-container *{
-    color: #eff1ff;
+    color: beige;
     text-shadow: 2px 2px #212421,
                  1px 1px #212021;
-    font-family: Verdana, sans-serif;
-    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
     font-weight: normal;
     margin: 5px 0;
   }
@@ -149,9 +156,10 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
 }
 
 #next{
-    background-color: blue;
+    background-color: #ed5f63;
     width: 25%;
     height: 35px;
+    border-radius: 5px;
 }
 
 #input{
@@ -168,3 +176,19 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
 .d-block{
     display: block!important;
 }
+
+
+/*
+o__ __o                                                                        
+<|     v\                                                                       
+/ \     <\                                                                      
+\o/       \o    o__ __o         o      o     o__ __o      o__ __o/     o__ __o/ 
+ |         |>  /v     v\       <|>    <|>   /v     v\    /v     |     /v     |  
+/ \       //  />       <\      < >    < >  />       <\  />     / \   />     / \ 
+\o/      /    \         /       \o    o/   \         /  \      \o/   \      \o/ 
+ |      o      o       o         v\  /v     o       o    o      |     o      |  
+/ \  __/>      <\__ __/>          <\/>      <\__ __/>    <\__  < >    <\__  / \ 
+                                   /                            |               
+                                  o                     o__     o               
+                               __/>                     <\__ __/>               
+  */                                                                              
