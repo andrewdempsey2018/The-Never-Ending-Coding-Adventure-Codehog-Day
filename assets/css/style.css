@@ -12,12 +12,14 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
 } */
 
 #wrapper {
-    background-color: white;
-    height: 600px;
-    width: 800px;
-    position: fixed;
+    background-color: #afa1a1;
+    height: 900px;
+    width: 1060px;
+    position: relative;
     border: red 2px solid;
-    overflow: hidden;
+    overflow: auto;
+    /* background-position-y: -10vh; */
+    margin: auto;
     /* background: url('/assets/media/bedroom.png') no-repeat center center fixed;
     background-size: cover;
     height: 70vh; */
@@ -26,9 +28,10 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
 
 #image{
     position: relative;
-    /* height: 85vh; */
-    width: 800px;
     top: -40px;
+    max-height: 600px;
+    width: 900px;
+    height: auto;
 }
 
 .poster{
@@ -58,8 +61,13 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
 #sleeping{
     position: absolute;
     display: none;
-    width: 100vw;
-    height: 100vh;
+    width: 900px;
+    height: auto;
+    max-height: 600px;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    margin-left: 75px;
 }
 
 * {
@@ -69,33 +77,27 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
 }
 /* Styiling the textboxes and position for the whole boxes section */
 .textbox-container {
-    position: fixed;
+    position: relative;
     bottom: 0;
     min-height: fit-content;
     height: 18vh;
-    width: 90%;
+    width: 95%;
     display: flex;
+    overflow: hidden;
     justify-content: center;
     flex-direction: row;
-
     border: solid 1px #424542;
-    box-shadow: 1px 1px #e7dfe7,
-                -1px -1px #e7dfe7,
-                1px -1px #e7dfe7,
-                -1px 1px #e7dfe7,
-                0 -2px #9c9a9c,
-                -2px 0 #7b757b,
-                0 2px #424542;
-    padding: 5px 10px;
-    margin: 50px 50px 4vh;
-    
+    box-shadow: 1px 1px #e7dfe7, -1px -1px #e7dfe7, 1px -1px #e7dfe7, -1px 1px #e7dfe7, 0 -2px #9c9a9c, -2px 0 #7b757b, 0 2px #424542;
+    /* padding: 5px 10px; */
+    /* margin: 50px 50px 4vh; */
+    margin-left: 25px;
     background: #04009d;
-    background: -moz-linear-gradient(top,  #04009d 0%, #06004d 100%);
+    background: -moz-linear-gradient(top, #04009d 0%, #06004d 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#04009d), color-stop(100%,#06004d));
-    background: -webkit-linear-gradient(top,  #04009d 0%,#06004d 100%);
-    background: -o-linear-gradient(top,  #04009d 0%,#06004d 100%);
-    background: -ms-linear-gradient(top,  #04009d 0%,#06004d 100%);
-    background: linear-gradient(to bottom,  #04009d 0%,#06004d 100%);
+    background: -webkit-linear-gradient(top, #04009d 0%,#06004d 100%);
+    background: -o-linear-gradient(top, #04009d 0%,#06004d 100%);
+    background: -ms-linear-gradient(top, #04009d 0%,#06004d 100%);
+    background: linear-gradient(to bottom, #04009d 0%,#06004d 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04009d', endColorstr='#06004d',GradientType=0 );
 }
 
@@ -115,8 +117,10 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
     padding: 4px;
 }
 
-.text-box {
-
+#image-container {
+    text-align: center;
+    margin-top: 30px;
+    object-fit: contain;
 }
 
 .text-box-main {
@@ -130,6 +134,7 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
     height: 300px;
     width: 33%;
 }
+
 
 #i-2,
 #i-3,
