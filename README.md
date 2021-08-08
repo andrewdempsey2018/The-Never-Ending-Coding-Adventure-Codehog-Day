@@ -1,6 +1,6 @@
 # The Never Ending Coding Adventure: Codehog Day
 
-PROJECT INTRO TEXT
+This project was built for the 2021 Retro Gaming Hackathon of Code Institute.
 
 The live link can be found here - [The Never Ending Coding Adventure: Codehog Day](https://andrewdempsey2018.github.io/The-Never-Ending-Coding-Adventure-Codehog-Day/)
 
@@ -41,7 +41,11 @@ The live link can be found here - [The Never Ending Coding Adventure: Codehog Da
 
 ### User stories
 
-
+- As a user I want the game to have a simple interface.
+- As a user I want to be able to know how the game works intuitively.
+- As a user I want the game instructions to be easy.
+- As a user I want have fun playing the game.
+- As a user I want to game to have a retro feel, and not take itself too seriously.
 
 [Back to Table of content](#table-of-content)
 
@@ -99,15 +103,13 @@ ASTEROIDS     https://i.pinimg.com/originals/e8/0f/16/e80f160b42833782d3bb931d5d
 
 ## Features
 
-
-
 ### Existing features
 
 
 
 ### Future features
 
-<p style="color:yellow;">- Another feature idea
+
 
 [Back to Table of content](#table-of-content)
 
@@ -135,6 +137,14 @@ ASTEROIDS     https://i.pinimg.com/originals/e8/0f/16/e80f160b42833782d3bb931d5d
 
 --- 
 
+### Other technologies
+
+- [Am I Responsive](http://ami.responsivedesign.is/) - Used to create the mockup.
+- [Balsamiq](https://balsamiq.com/) Used to create the wireframes for this project.
+- [Google Developer Tools](https://developer.chrome.com/docs/devtools/) - Used throughout the project for debugging.
+- [Phaser js](https://phaser.io/) - Used as a game-engine.
+
+
 ## Testing
 
 =========== SEPERATE .MD FILE????
@@ -150,7 +160,7 @@ ASTEROIDS     https://i.pinimg.com/originals/e8/0f/16/e80f160b42833782d3bb931d5d
 
 ### Bugs we fixed
 
-### Bugs we fixed
+
 
 ### Unfixed Bugs
 
@@ -233,19 +243,24 @@ You could make a copy of the GitHub repository by "Forking" the original reposit
 ## Team
 
 ### - [Andrew Dempsey](https://github.com/andrewdempsey2018)
+  -
 
 ### - [Helena Johansson](https://github.com/Odden69)
+  -
 
 ### - [John Doyle](https://github.com/Aramantos)
   - Gaming has always been a passion of mine so this hackathon was a must. A retro game will make a proud addition to the portfolio and it was a great experience shaping it with the team. Hope you all enjoy it.
 
 ### - [Katherine Biggs](https://github.com/Kat632)
   - I've been gaming since I was about 8. I had an Acorn Electron. These days I'm a Simmer. The fastest thing I can type is "testingcheatsenabled true". This is a Sims joke that probably no one will understand.
+
 ### - [Patrik Österljung](https://github.com/oljung)
+  -
 
 ### - [Yorick van den Hurk](https://github.com/nowane)
+  - I've always had a lot of fun gaming when I was a kid. Seeing this theme for a hackathon come by was the last push I needed to engage more in the Code Institute community. Luckily I landed in an awesome team of truely awesome characters, with who I've been glad to had the pleasure working with.
 
 
-#### - Special thanks go out to our facilitator Mai Read
+#### - Special thanks go out to our facilitator mairead.ci
 
 [Back to Table of content](#table-of-content)
