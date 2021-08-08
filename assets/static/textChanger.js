@@ -13,43 +13,54 @@ $(document).ready(function () {
     i = 0;
     txt = '';
     speed = 100;
-
+    whiskey = false;
+    theCode = '';
     $('#next').click(function () {
-        count++;
-        textChanger();
-        typeWriter();
+        nextScreen();
         
     });
 
     $('input').on("change", function () {
         if (count === 1) {
             if ($('#input').val() === "good") {
-                count++;
-                textChanger();
-                typeWriter();
-            }}
+                nextScreen();
+            }
+            if ($('#input').val() === "bad"){
+                sleepScreen();
+            }
+        }
         if (count === 2) {
             if ($('#input').val() === "yes") {
-                    count++;
-                    textChanger();
-                    typeWriter();
+                nextScreen();
                 }
             if ($('#input').val() === "no") {
-                    setTimeout(function () {
-                        document.location.href = "index.html"
-                    }, 5000);
-                    $('#sleeping').css('display', 'block');
-                    $('.textbox-container').addClass('d-none');
+                sleepScreen();
                 }
             }
+        if(count === 4){
+            if($('#input').val() === "tea"){
+                nextScreen();
+            }
+            if($('#input').val() === 'coffee'){
+                nextScreen();
+            }
+            if($('#input').val() === 'whiskey'){
+                whiskey = true;
+                nextScreen();
+            }
+        }
+        if(count === 10){
+            theCode = $('#input').val();
+            endGame();
+        }
         }
     );
 });
 
 function textChanger() {
     if (count === 1) {
-        //$('#text').text('How did you sleep?');
-        txt = 'How did you sleep?';
+        //$('#text').text('How did you sleep? make a choice');
+        txt = 'How did you sleep? make a choice: good; bad';
         resetTyper();
         $('#input').prop('disabled', false);
         $('#next').prop('disabled', true).text('');
@@ -76,11 +87,17 @@ function textChanger() {
     if (count === 4) {
         // $('#text').text('Tea? Coffee? Whiskey?....');
         txt = 'Tea? Coffee? Whiskey?....';
+        $('#input').prop("disabled", false);
         resetTyper();
     }
     if (count === 5) {
         // $('#text').text('Whiskey it is!');
-        txt = 'Whiskey it is!';
+        if(whiskey){
+            txt = 'Whiskey it is!';
+        } else{
+            txt = "That's a sensible choice!";
+        }
+        $('#input').prop("disabled", true);
         resetTyper();
     }
     if (count === 6) {
@@ -89,13 +106,19 @@ function textChanger() {
         resetTyper();
     }
     if (count === 7) {
-        // $('#text').text('*cough*');
-        txt = '*cough*';
+        if(whiskey){
+            txt = '*cough*';
+        } else{
+            txt = 'ahh, I feel more energized and ready to get some work done!'
+        }
         resetTyper();
     }
     if (count === 8) {
-        // $('#text').text('Work to start time...');
-        txt = 'Work to start time...';
+        if(whiskey){
+            txt = 'Work to start time...';
+        } else{
+            txt = 'Time to start working!';
+        }
         resetTyper();
         $('#image').attr("src", "assets/media/office.png");;
         $('#breakout').css('display', 'none')
@@ -105,21 +128,19 @@ function textChanger() {
         $('#h-5, #h-4, #h-3').css('display', 'none');
     }
     if (count === 9) {
-        // $('#text').text('Let me just get ready...');
         txt = 'Let me just get ready...';
         resetTyper();
     }
     if (count === 10) {
-        // $('#text').text('ZzZzZzZzZzZz');
-        txt = 'ZzZzZzZzZzZz';
+        if(whiskey){
+            txt = 'ZzZzZzZzZzZz';
+            sleepScreen();
+        } else {
+            txt = "Let's see you write some code!"
+        }
+        $('#input').prop("disabled", false);
         resetTyper();
-        setTimeout(function () {
-            setTimeout(function () {
-                document.location.href = "index.html"
-            }, 5000);
-            $('#sleeping').css('display', 'block');
-            $('.textbox-container').addClass('d-none');
-        }, 2000)
+        
     }
 }
 
@@ -134,6 +155,29 @@ function typeWriter() { // source: https://www.w3schools.com/howto/tryit.asp?fil
 function resetTyper(){
     document.getElementById('text').innerHTML = "";
     i = 0;
+}
+
+function sleepScreen(){
+    setTimeout(function () {
+        setTimeout(function () {
+            document.location.href = "index.html"
+        }, 5000);
+        $('#sleeping').css('display', 'block');
+        $('.textbox-container').addClass('d-none');
+    }, 2000)
+}
+
+function nextScreen(){
+    count++;
+    textChanger();
+    typeWriter();
+}
+
+function endGame(){
+    window.alert('Great!\nYou have successfully managed to stay away from distractions\nand stay sober to write your code!\nHere it is:\n' + theCode);
+    setTimeout(function () {
+        document.location.href = "index.html"
+    }, 3000);
 }
 
 /* Copied Code */
