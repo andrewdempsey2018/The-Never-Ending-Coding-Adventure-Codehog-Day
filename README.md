@@ -158,6 +158,7 @@ ASTEROIDS     https://i.pinimg.com/originals/e8/0f/16/e80f160b42833782d3bb931d5d
 - [Google Developer Tools](https://developer.chrome.com/docs/devtools/) - Used throughout the project for debugging.
 - [Google fonts](https://fonts.google.com/) - Used to find the fonts.
 - [Phaser js](https://phaser.io/) - Used as a game-engine.
+- [Pinetools] (https://pinetools.com/pixelate-effect-image) - Used to pixelate images.
 
 
 ## Testing
@@ -261,7 +262,7 @@ You could make a copy of the GitHub repository by "Forking" the original reposit
   -
 
 ### - [Helena Johansson](https://github.com/Odden69)
-  -
+  - I am probably the person in this team with the least gaming experience. But I am the oldest, hence the most retro. Joining this hackathon has been so rewarding. I have learned so much from my fabulous fellow team mates.
 
 ### - [John Doyle](https://github.com/Aramantos)
   - Gaming has always been a passion of mine so this hackathon was a must. A retro game will make a proud addition to the portfolio and it was a great experience shaping it with the team. Hope you all enjoy it.
