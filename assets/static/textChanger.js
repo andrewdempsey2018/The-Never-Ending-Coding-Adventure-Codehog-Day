@@ -1,14 +1,4 @@
 $(document).ready(function () {
-    /* Copied Code */ // This is attached to the bottom section also labeled copied code
-                    // source: https://github.com/chadselph/jquery-typewriter
-    // $('#text').typewrite({
-    //     'callback': function(){
-    //         $('.demo').css('background-color','red');
-    //     },
-    //     'delay': 100
-
-    // });
-    /* Copied Code */
     count = 0;
     i = 0;
     txt = '';
@@ -70,8 +60,8 @@ function textChanger() {
         $('#input').prop("disabled", true);
         $('#input').val("");
         $('#next').prop('disabled', false).text('Next');
-        $('#i-2').addClass('d-block');
-        $('#e-5').css('display', 'none');
+        $('#i-2').addClass('green');
+        $('#e-5').removeClass('yellow');
     }
     if (count === 4) {
         // $('#text').text('Tea? Coffee? Whiskey?....');
@@ -100,9 +90,9 @@ function textChanger() {
         $('#image').attr("src", "assets/media/office.png");;
         $('#breakout').css('display', 'none')
         $('#bird').css('display', 'block')
-        $('#i-3').addClass('d-block');
-        $('#e-4').css('display', 'none');
-        $('#h-5, #h-4, #h-3').css('display', 'none');
+        $('#i-3').addClass('green');
+        $('#e-4').removeClass('yellow');
+        $('#h-5, #h-4, #h-3').removeClass('red');
     }
     if (count === 9) {
         // $('#text').text('Let me just get ready...');
@@ -135,44 +125,3 @@ function resetTyper(){
     document.getElementById('text').innerHTML = "";
     i = 0;
 }
-
-/* Copied Code */
-// (function ( $ ) {
-//     $.fn.typewrite = function ( options ) {
-//         var settings = {
-//             'selector': this,
-//             'extra_char': '',
-//             'delay':    100,
-//             'trim':     false,
-//             'callback': null
-//         };
-//         if (options) $.extend(settings, options);
-
-//         function type_next_element(index) {
-//             var current_element = $(settings.selector[index]);
-//             var final_text = current_element.text();
-//             if (settings.trim) final_text = $.trim(final_text);
-//             current_element.html("").show();
-
-//             function type_next_character(element, i) {
-//                 element.html( final_text.substr(0, i)+settings.extra_char );
-//                 if (final_text.length >= i) {
-//                     setTimeout(function() {
-//                         type_next_character(element, i+1);
-//                     }, settings.delay);
-//                 }
-//                 else {
-//                     if (++index < settings.selector.length) {
-//                         type_next_element(index);
-//                     }
-//                     else if (settings.callback) settings.callback();
-//                 }
-//             }
-//             type_next_character(current_element, 0);
-//         }
-//         type_next_element(0);
-
-//         return this;
-//     };
-// })(jQuery);
-/* Copied Code */
