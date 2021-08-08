@@ -25,7 +25,7 @@ var game = new Phaser.Game(config);
 const gameState = {
     PLAY: "play",
     PREPARE: "prepare",
-}
+};
 
 let state = gameState.PREPARE;
 

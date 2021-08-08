@@ -7,7 +7,7 @@ $(document).ready(function () {
     theCode = '';
     $('#next').click(function () {
         nextScreen();
-        
+
     });
 
     $('input').on("change", function () {
@@ -15,7 +15,7 @@ $(document).ready(function () {
             if ($('#input').val() === "good") {
                 nextScreen();
             }
-            if ($('#input').val() === "bad"){
+            if ($('#input').val() === "bad") {
                 txt = 'Back to bed!';
                 resetTyper();
                 sleepScreen();
@@ -24,28 +24,28 @@ $(document).ready(function () {
         if (count === 2) {
             if ($('#input').val() === "yes") {
                 nextScreen();
-                }
+            }
             if ($('#input').val() === "no") {
                 sleepScreen();
-                }
             }
-        if(count === 4){
-            if($('#input').val() === "tea"){
+        }
+        if (count === 4) {
+            if ($('#input').val() === "tea") {
                 nextScreen();
             }
-            if($('#input').val() === 'coffee'){
+            if ($('#input').val() === 'coffee') {
                 nextScreen();
             }
-            if($('#input').val() === 'whiskey'){
+            if ($('#input').val() === 'whiskey') {
                 whiskey = true;
                 nextScreen();
             }
         }
-        if(count === 10){
+        if (count === 10) {
             theCode = $('#input').val();
             endGame();
         }
-        }
+    }
     );
 });
 
@@ -64,9 +64,9 @@ function textChanger() {
     if (count === 3) {
         txt = 'You need something to get your day started. What do you want to perk yourself up?';
         resetTyper();
-        $('#image').attr("src", "assets/media/kitchen.png");;
-        $('#pong').css('display', 'none')
-        $('#breakout').css('display', 'block')
+        $('#image').attr("src", "assets/media/kitchen.png");
+        $('#pong').css('display', 'none');
+        $('#breakout').css('display', 'block');
         $('#input').prop("disabled", true);
         $('#input').val("");
         $('#next').prop('disabled', false).text('Next');
@@ -81,9 +81,9 @@ function textChanger() {
         resetTyper();
     }
     if (count === 5) {
-        if(whiskey){
+        if (whiskey) {
             txt = 'Whiskey it is!';
-        } else{
+        } else {
             txt = "That's a sensible choice!";
         }
         $('#input').prop("disabled", true);
@@ -96,13 +96,13 @@ function textChanger() {
         resetTyper();
     }
     if (count === 7) {
-        if(whiskey){
+        if (whiskey) {
             txt = '*cough cough*';
             $('#i-3').addClass('green');
             $('#h-4').removeClass('red');
             $('#e-4').removeClass('yellow');
-        } else{
-            txt = 'Ahh, I feel more energized and ready to get some work done!'
+        } else {
+            txt = 'Ahh, I feel more energized and ready to get some work done!';
             $('#i-2').removeClass('green');
             $('#h-5').addClass('red');
             $('#e-5').addClass('yellow');
@@ -110,31 +110,31 @@ function textChanger() {
         resetTyper();
     }
     if (count === 8) {
-        if(whiskey){
+        if (whiskey) {
             txt = 'Work to start time...';
             $('#i-4').addClass('green');
-        } else{
+        } else {
             txt = 'Time to start working!';
         }
         resetTyper();
-        $('#image').attr("src", "assets/media/office.png");;
-        $('#breakout').css('display', 'none')
-        $('#bird').css('display', 'block')
+        $('#image').attr("src", "assets/media/office.png");
+        $('#breakout').css('display', 'none');
+        $('#bird').css('display', 'block');
     }
     if (count === 9) {
         txt = 'Let me just get ready...';
         resetTyper();
     }
     if (count === 10) {
-        if(whiskey){
+        if (whiskey) {
             txt = 'ZzZzZzZzZzZz';
             sleepScreen();
         } else {
-            txt = "Let's see you write some code!"
+            txt = "Let's see you write some code!";
         }
         $('#input').prop("disabled", false);
         resetTyper();
-        
+
     }
 }
 
@@ -146,35 +146,35 @@ function typeWriter() { // source: https://www.w3schools.com/howto/tryit.asp?fil
     }
 }
 
-function resetTyper(){
+function resetTyper() {
     document.getElementById('text').innerHTML = "";
     i = 0;
 }
 
-function sleepScreen(){
+function sleepScreen() {
     setTimeout(function () {
         setTimeout(function () {
-            document.location.href = "index.html"
+            document.location.href = "index.html";
         }, 5000);
         $('#image').css('display', 'none');
         $('#sleeping').css('display', 'block');
         $('.textbox-container').addClass('d-none');
-    }, 2000)
+    }, 2000);
 }
 
-function nextScreen(){
+function nextScreen() {
     count++;
     textChanger();
     typeWriter();
 }
 
-function endGame(){
-    if(theCode === "Patrik rules"){
+function endGame() {
+    if (theCode === "Patrik rules") {
         window.alert('Yeah, that guy sure is awesome!');
     } else {
         window.alert('Great!\nYou have successfully managed to stay away from distractions\nand stay sober to write your code!\nHere it is:\n' + theCode);
     }
     setTimeout(function () {
-        document.location.href = "index.html"
+        document.location.href = "index.html";
     }, 3000);
 }
