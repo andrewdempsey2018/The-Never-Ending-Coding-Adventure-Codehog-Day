@@ -34,29 +34,44 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
     height: auto;
 }
 
-.poster{
-    position: absolute;
-    height: 60px;
-    width: 85px;
-    top: 0;
-    left: 0;
-    /* height: 15vh;
-    width: 15vw; */
-}
 
 #pong{
-    margin: 17% 63.5%;
+    margin: 16.5% 60.5%;
+    position: absolute;
+    height: 75px;
+    width: 115px;
+    top: 0;
+    left: 0;
 }
 
 #breakout{
-    margin: 17% 60%;
+    margin: 7% 15%;
     display: none;
+    position: absolute;
+    height: 113px;
+    width: 144px;
+    top: 0;
+    left: 0;
 }
 
 #bird{
-    margin: 17% 60%;
+    margin: 15% 55%;
     display: none;
+    position: absolute;
+    height: 210px;
+    width: 225px;
+    top: 0;
+    left: 
+    0;
 }
+
+#pong,
+#breakout,
+#bird { transition: all .2s ease-in-out; }
+
+#pong:hover,
+#breakout:hover, 
+#bird:hover  { transform: scale(1.25); }
 
 #sleeping{
     position: absolute;
@@ -135,14 +150,6 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
     width: 33%;
 }
 
-
-#i-2,
-#i-3,
-#i-4,
-#i-5{
-    display: none;
-}
-
 #controls{
     display: flex;
     justify-content: space-evenly;
@@ -159,6 +166,18 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
     text-shadow: 0 0 white;
     background: white!important;
     width: 60%;
+}
+
+.red{
+    color: red;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.green{
+    color: green;
 }
 
 .d-none{
