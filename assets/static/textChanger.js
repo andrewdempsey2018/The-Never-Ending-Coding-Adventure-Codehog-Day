@@ -1,3 +1,7 @@
+String.prototype.crosscheck = function () {
+    return this.toUpperCase().trim();
+};
+
 $(document).ready(function () {
     count = 0;
     i = 0;
@@ -12,31 +16,33 @@ $(document).ready(function () {
 
     $('input').on("change", function () {
         if (count === 1) {
-            if ($('#input').val() === "good") {
+            if ($('#input').val().crosscheck() === "good".crosscheck()) {
                 nextScreen();
             }
-            if ($('#input').val() === "bad") {
+            if ($('#input').val().crosscheck() === "bad".crosscheck()) {
                 txt = 'Back to bed!';
                 resetTyper();
                 sleepScreen();
             }
         }
         if (count === 2) {
-            if ($('#input').val() === "yes") {
+            if ($('#input').val().crosscheck() === "yes".crosscheck()) {
                 nextScreen();
             }
-            if ($('#input').val() === "no") {
+            if ($('#input').val().crosscheck() === "no".crosscheck()) {
+                                txt = 'Back to bed!';
+                resetTyper();
                 sleepScreen();
             }
         }
         if (count === 4) {
-            if ($('#input').val() === "tea") {
+            if ($('#input').val().crosscheck() === "tea".crosscheck()) {
                 nextScreen();
             }
-            if ($('#input').val() === 'coffee') {
+            if ($('#input').val().crosscheck() === "coffee".crosscheck()) {
                 nextScreen();
             }
-            if ($('#input').val() === 'whiskey') {
+            if ($('#input').val().crosscheck() === "whiskey".crosscheck()) {
                 whiskey = true;
                 nextScreen();
             }
