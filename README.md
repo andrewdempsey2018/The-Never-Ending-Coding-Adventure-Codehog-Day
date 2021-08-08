@@ -1,97 +1,81 @@
 # The Never Ending Coding Adventure: Codehog Day
 
+PROJECT INTRO TEXT
+
+The live link can be found here - [The Never Ending Coding Adventure: Codehog Day](https://andrewdempsey2018.github.io/The-Never-Ending-Coding-Adventure-Codehog-Day/)
+
+---
+
+![Responsive Mockup](#) TO BE ADDED
+
+---
+
+## Table of content
+
+- [User experience](#user-experience)
+  - [User stories](#user-stories)
+- [Design](#design)
+  - [Wireframes](#wireframes)
+  - [Color scheme](#color-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+- [Features](#features)
+  - [Existing features](#existing-features)
+  - [Future features](#future-features)
+- [Technologies](#technologies)
+    - [Languages](#languages)
+    - [Version control- workspace and repository storage](#version-control--workspace-and-repository-storage)
+- [Testing](#testing)
+- [Deployment](#deployment)
+    - [Deployment to Github](#deployment-to-github)
+    - [Run code locally](#run-code-locally)
+      - [Forking local repository](#forking-local-repository)
+      - [Cloning local repository](#cloning-local-repository)
+- [Credits](#credits)
+  - [Code snippets](#code-snippets)
+- [Team](#team)
+
+---
+
+## User experience
+
+### User stories
+
+
+
+[Back to Table of content](#table-of-content)
+
+---
+
+### Design
+
+#### Wireframes
+
 ![wireframe](assets/media/wireframes/wireframe.png "image_tooltip")
 
-<p style="color:yellow;">In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+[Back to Table of content](#table-of-content)
 
-<p style="color:yellow;">For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.
+---
 
-<p style="color:yellow;">![Responsive Mockup](#)
-
-## Features 
-
-<p style="color:yellow;">In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-### Existing Features
-
-<p style="color:yellow;">- __Navigation Bar__
-
- <p style="color:yellow;"> - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-
-<p style="color:yellow;">![Nav Bar](#)
+#### Color Scheme
 
 
-<p style="color:yellow;">For some/all of your features, you may choose to reference the specific project files that implement them.
-
-<p style="color:yellow;">In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-<p style="color:yellow;">- Another feature idea
-
-## Testing 
-
-<p style="color:yellow;">In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-<p style="color:yellow;">In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
-### Validator Testing 
+[Back to Table of content](#table-of-content)
 
-- HTML
-  - No errors were returned when passing through the official  [W3C validator](#)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](#)
+---
 
-### Bugs we fixed
-
-### Unfixed Bugs
-
-<p style="color:yellow;">You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
-
-## Deployment
-
-<p style="color:yellow;">This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-<p style="color:yellow;">- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - [The Never Ending Coding Adventure: Codehog Day](https://github.com/andrewdempsey2018/The-Never-Ending-Coding-Adventure-Codehog-Day/index.html)
-
-## The Team
-
-### Andrew
-Write something nice here, Andrew. 
-
-### John
-Gaming has always been a passion of mine so this hackathon was a must. A retro game will make a proud addition to the portfolio and it was a great experience shaping it with the team. Hope you all enjoy it.
-
-### Yorick
-Write something nice here, Yorick. 
-
-### Katherine
-I've been gaming since I was about 8.  I had an Acorn Electron. These days I'm a Simmer.  The fastest thing I can type is "testingcheatsenabled true".  This is a Sims joke that probably no one will understand.
-
-### Patrik
-Write something nice here, Patrik. 
-
-### Helena
-Write something nice here, Helena. 
+#### Typography
 
 
-## Credits 
-### Code
-These code snippets from open sources has been used in the game.
 
-- [Text Box - Final Fantasy 7 Style Dialouge box](https://codepen.io/terrancerobb/pen/bnuqe)
+[Back to Table of content](#table-of-content)
 
+---
 
-### Media
+#### Imagery
+
 The following images in the game was taken from the linked open source below.
 
 - [Sleeping gif](https://wifflegif.com/gifs/136337-pixel-art-sleeping-gif)
@@ -101,5 +85,167 @@ The following images in the game was taken from the linked open source below.
 - [Bedroom](https://www.vecteezy.com/vector-art/157529-free-simple-bedroom-illustration)
 - [Macintosh](https://icon-icons.com/icon/macintosh/131159)
 
-### Content 
 
+NEW PONG      https://uploads.sitepoint.com/wp-content/uploads/2016/01/1452785857main.png
+NEW BREAKOUT  https://img.itch.zone/aW1nLzY2MDg1MDUucG5n/original/OVVq9f.png
+ALT FLAPPY    https://toppng.com/uploads/preview/flappy-bird-pixel-art-flappy-bird-1156289438531sspmvwnk.png
+MARIO         https://p.kindpng.com/picc/s/255-2557213_black-and-white-mario-blue-slime-pixel-art.png
+ASTEROIDS     https://i.pinimg.com/originals/e8/0f/16/e80f160b42833782d3bb931d5d5bdd3b.jpg
+
+
+[Back to Table of content](#table-of-content)
+
+---
+
+## Features
+
+
+
+### Existing features
+
+
+
+### Future features
+
+<p style="color:yellow;">- Another feature idea
+
+[Back to Table of content](#table-of-content)
+
+---
+
+## Technologies
+
+  ### Languages
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) 
+
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) 
+
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+[Back to Table of content](#table-of-content)
+
+---
+
+  ### Version control- workspace and repository storage
+
+- [Git](https://git-scm.com/) - Version control software used to commit and push code to the GitHub repository where the source code is stored.
+- [Gitpod](https://www.gitpod.io/) - Main workspace IDE (Integrated Development Environment).
+- [GitHub](https://github.com/) - Used to host the deployed website and repository of all previous versions of 
+
+--- 
+
+## Testing
+
+=========== SEPERATE .MD FILE????
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official  [W3C validator](https://validator.w3.org/)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+- Javascript
+  - No errors were found when passing through the official [JSHint validator](https://jshint.com/)
+
+### Bugs we fixed
+
+### Bugs we fixed
+
+### Unfixed Bugs
+
+
+[Back to Table of content](#table-of-content)
+
+---
+
+## Deployment
+
+### Deployment to Github
+
+ Deploying to GitHub Pages:
+ 
+- Sign in to GitHub.
+- Insert the name of the repository in the search bar: [The-Never-Ending-Coding-Adventure-Codehog-Day](https://github.com/andrewdempsey2018/The-Never-Ending-Coding-Adventure-Codehog-Day) .
+- Click on the repository to view more details.
+- Click on settings, which is located in the row above the green Gitpod button.
+- Scroll down to the GitHub Pages section.
+- Under source, select master in the dropdown menu.
+- Select /(root) in the tab which is right next to branch.
+- Click Save (page will automatically refresh).
+- Scroll down again to the GitHub pages section.
+- A container with a blue blackground will tell you: "Your site is ready to be published at https://andrewdempsey2018.github.io/The-Never-Ending-Coding-Adventure-Codehog-Day/ .
+
+[Back to Table of content](#table-of-content)
+
+---
+
+### Run code locally
+
+You can either fork or clone the local repository on GitHub as follows.
+
+  #### Forking local repository
+
+You could make a copy of the GitHub repository by "Forking" the original repository onto your own account by following these steps:
+
+  - Sign in to GitHub.
+  - On GitHub, navigate to the[The-Never-Ending-Coding-Adventure-Codehog-Day](https://github.com/andrewdempsey2018/The-Never-Ending-Coding-Adventure-Codehog-Day) repository.
+  - In the top-right corner of the page, click Fork.
+  - You should now have a copy of this repository into your GitHub account.
+
+  [Back to Table of content](#table-of-content)
+
+  ---
+
+  #### Cloning local repository
+
+ You could make a clone of the GitHub repository by "Cloning" the original repository by following these steps:
+
+  - Sign in to GitHub.
+  - On GitHub, navigate to the [The-Never-Ending-Coding-Adventure-Codehog-Day](https://github.com/andrewdempsey2018/The-Never-Ending-Coding-Adventure-Codehog-Day) repository.
+  - Above the repository folder and file content, click “Code”.
+  - Select from one of the following options:
+    - Clone the files using the url.
+      - Copy the url.
+      - Create a repository in GitHub and a workspace in your IDE.
+      - Open the terminal and type: $ git clone https://github.com/andrewdempsey2018/The-Never-Ending-Coding-Adventure-Codehog-Day.git .
+      - All the files should have been imported in your workspace.
+    - Download zip files.
+      - Create a repository in GitHub and a workspace in your IDE.
+      - Unzip the folder.
+      - Upload the files into your workspace.
+
+[Back to Table of content](#table-of-content)
+
+---
+
+## Credits
+
+### Code snippets
+
+- [Text Box - Final Fantasy 7 Style Dialouge box](https://codepen.io/terrancerobb/pen/bnuqe)
+
+
+[Back to Table of content](#table-of-content)
+
+---
+
+## Team
+
+### - [Andrew Dempsey](https://github.com/andrewdempsey2018)
+
+### - [Helena Johansson](https://github.com/Odden69)
+
+### - [John Doyle](https://github.com/Aramantos)
+  - Gaming has always been a passion of mine so this hackathon was a must. A retro game will make a proud addition to the portfolio and it was a great experience shaping it with the team. Hope you all enjoy it.
+
+### - [Katherine Biggs](https://github.com/Kat632)
+  - I've been gaming since I was about 8. I had an Acorn Electron. These days I'm a Simmer. The fastest thing I can type is "testingcheatsenabled true". This is a Sims joke that probably no one will understand.
+### - [Patrik Österljung](https://github.com/oljung)
+
+### - [Yorick van den Hurk](https://github.com/nowane)
+
+
+#### - Special thanks go out to our facilitator Mai Read
+
+[Back to Table of content](#table-of-content)
