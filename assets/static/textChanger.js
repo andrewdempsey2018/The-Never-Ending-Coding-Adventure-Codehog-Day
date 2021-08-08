@@ -16,8 +16,9 @@ $(document).ready(function () {
 
     $('#next').click(function () {
         count++;
-        typeWriter();
         textChanger();
+        typeWriter();
+        
     });
 
     $('input').on("change", function () {
@@ -25,11 +26,13 @@ $(document).ready(function () {
             if ($('#input').val() === "good") {
                 count++;
                 textChanger();
+                typeWriter();
             }}
         if (count === 2) {
             if ($('#input').val() === "yes") {
                     count++;
                     textChanger();
+                    typeWriter();
                 }
             if ($('#input').val() === "no") {
                     setTimeout(function () {
@@ -45,19 +48,22 @@ $(document).ready(function () {
 
 function textChanger() {
     if (count === 1) {
-        $('#text').text('How did you sleep?');
-        // txt = 'How did you sleep?';
+        //$('#text').text('How did you sleep?');
+        txt = 'How did you sleep?';
+        resetTyper();
         $('#input').prop('disabled', false);
         $('#next').prop('disabled', true).text('');
     }
     if (count === 2) {
-        $('#text').text('I am glad you slept well. Ready to start work?');
-        // txt = 'I am glad you slept well. Ready to start work?';
+        // $('#text').text('I am glad you slept well. Ready to start work?');
+        txt = 'I am glad you slept well. Ready to start work?';
+        resetTyper();
         $('#input').val("");
     }
     if (count === 3) {
-        $('#text').text('What do you want for breakfast?');
-        // txt = 'What do you want for breakfast?';
+        // $('#text').text('What do you want for breakfast?');
+        txt = 'What do you want for breakfast?';
+        resetTyper();
         $('#image').attr("src", "assets/media/kitchen.png");;
         $('#pong').css('display', 'none')
         $('#breakout').css('display', 'block')
@@ -68,24 +74,29 @@ function textChanger() {
         $('#e-5').css('display', 'none');
     }
     if (count === 4) {
-        $('#text').text('Tea? Coffee? Whiskey?....');
-        // txt = 'Tea? Coffee? Whiskey?....';
+        // $('#text').text('Tea? Coffee? Whiskey?....');
+        txt = 'Tea? Coffee? Whiskey?....';
+        resetTyper();
     }
     if (count === 5) {
-        $('#text').text('Whiskey it is!');
-        // txt = 'Whiskey it is!';
+        // $('#text').text('Whiskey it is!');
+        txt = 'Whiskey it is!';
+        resetTyper();
     }
     if (count === 6) {
-        $('#text').text('30 seconds later...');
-        // txt = '30 seconds later...';
+        // $('#text').text('30 seconds later...');
+        txt = '30 seconds later...';
+        resetTyper();
     }
     if (count === 7) {
-        $('#text').text('*cough*');
-        // txt = '*cough*';
+        // $('#text').text('*cough*');
+        txt = '*cough*';
+        resetTyper();
     }
     if (count === 8) {
-        $('#text').text('Work to start time...');
-        // txt = 'Work to start time...';
+        // $('#text').text('Work to start time...');
+        txt = 'Work to start time...';
+        resetTyper();
         $('#image').attr("src", "assets/media/office.png");;
         $('#breakout').css('display', 'none')
         $('#bird').css('display', 'block')
@@ -94,12 +105,14 @@ function textChanger() {
         $('#h-5, #h-4, #h-3').css('display', 'none');
     }
     if (count === 9) {
-        $('#text').text('Let me just get ready...');
-        // txt = 'Let me just get ready...';
+        // $('#text').text('Let me just get ready...');
+        txt = 'Let me just get ready...';
+        resetTyper();
     }
     if (count === 10) {
-        $('#text').text('ZzZzZzZzZzZz');
-        // txt = 'ZzZzZzZzZzZz';
+        // $('#text').text('ZzZzZzZzZzZz');
+        txt = 'ZzZzZzZzZzZz';
+        resetTyper();
         setTimeout(function () {
             setTimeout(function () {
                 document.location.href = "index.html"
@@ -116,6 +129,11 @@ function typeWriter() { // source: https://www.w3schools.com/howto/tryit.asp?fil
         i++;
         setTimeout(typeWriter, speed);
     }
+}
+
+function resetTyper(){
+    document.getElementById('text').innerHTML = "";
+    i = 0;
 }
 
 /* Copied Code */
