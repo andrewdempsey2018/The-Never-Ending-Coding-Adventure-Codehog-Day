@@ -10,7 +10,7 @@ let timer;
 //This function adds the text to the textbox
 function addText(){
     if(index < text.length){
-        let destination = document.getElementById('text-box-main');
+        let destination = document.getElementById('text');
         textToAdd += text[index];
         destination.innerHTML = textToAdd;
         index++;
