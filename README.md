@@ -1,6 +1,7 @@
 # The Never Ending Coding Adventure: Codehog Day
 
 This project was built for the 2021 Retro Gaming Hackathon of Code Institute.
+The purpose of the project was to build a retro-styled game based on the earliest developed computer games, as well as growing as (aspirin]g) developers by working together as a team and manage version control of the to-be developed product.
 
 The live link can be found here - [The Never Ending Coding Adventure: Codehog Day](https://andrewdempsey2018.github.io/The-Never-Ending-Coding-Adventure-Codehog-Day/)
 
@@ -71,7 +72,7 @@ The colours used for this project are:
 - #4ABAA7 - Keppel
 All of these colours were used throughout the project to create an authentic retro feel to the game.
 
-![color scheme](assets/media/color-scheme.png)
+![color scheme](assets/media/colour-scheme.png)
 
 
 [Back to Table of content](#table-of-content)
