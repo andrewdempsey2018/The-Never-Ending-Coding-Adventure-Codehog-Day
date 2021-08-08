@@ -27,7 +27,7 @@ var game = new Phaser.Game(config);
 const gameState = {
     PLAY: "play",
     PREPARE: "prepare",
-}
+};
 
 /* initial state, player will launch ball */
 let state = gameState.PREPARE;
@@ -77,7 +77,7 @@ function create() {
 
     let levelData = this.cache.json.get('level');
 
-    let level = levelData.bricks.map(brick => bricks.create(brick.x, brick.y, brick.name))
+    let level = levelData.bricks.map(brick => bricks.create(brick.x, brick.y, brick.name));
 
     /* when a collision is detected between the ball and a brick, the killBrick function fires
     the ball bounces, the brick is destroyed and the 'hit' sound plays */

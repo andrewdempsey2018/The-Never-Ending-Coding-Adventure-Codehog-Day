@@ -1,207 +1,252 @@
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 /*Press Start 2P is a bitmap font based on the font design from 1980s Namco arcade games. 
 It works best at sizes of 8px, 16px and other multiples of 8.*/
 
+
 /* font-family: 'Press Start 2P', cursive; */
+
 
 /* html {
     height: 100vh;
 } */
 
 body {
-    background-color: #b0817f;
+	background-color: #b0817f;
 }
-
-
-
 
 #wrapper {
-    background-color: #687483;
-    height: 900px;
-    width: 1060px;
-    position: relative;
-    border: rgba(53, 48, 48, 0.158) 2px solid;
-    overflow: auto;
-    /* background-position-y: -10vh; */
-    margin: auto;
-    /* background: url('/assets/media/bedroom.png') no-repeat center center fixed;
+	background-color: #687483;
+	height: 900px;
+	width: 1060px;
+	position: relative;
+	border: rgba(53, 48, 48, 0.158) 2px solid;
+	overflow: auto;
+	/* background-position-y: -10vh; */
+	margin: auto;
+	/* background: url('/assets/media/bedroom.png') no-repeat center center fixed;
     background-size: cover;
     height: 70vh; */
-    /* background-position-y: -10vh; */
+	/* background-position-y: -10vh; */
 }
 
-#image{
-    position: relative;
-    top: -40px;
-    max-height: 600px;
-    width: 900px;
-    height: auto;
+#image {
+	position: relative;
+	top: -40px;
+	height: 600px!important;
+	width: 900px;
+	height: auto;
 }
 
-
-#pong{
-    margin: 16.5% 60.5%;
-    position: absolute;
-    height: 75px;
-    width: 115px;
-    top: 0;
-    left: 0;
+#pong {
+	margin: 16.5% 60.5%;
+	position: absolute;
+	height: 75px;
+	width: 115px;
+	top: 0;
+	left: 0;
 }
 
-#breakout{
-    margin: 7% 15%;
-    display: none;
-    position: absolute;
-    height: 113px;
-    width: 144px;
-    top: 0;
-    left: 0;
+#breakout {
+	margin: 7% 15%;
+	display: none;
+	position: absolute;
+	height: 113px;
+	width: 144px;
+	top: 0;
+	left: 0;
 }
 
-#bird{
-    margin: 15% 55%;
-    display: none;
-    position: absolute;
-    height: 210px;
-    width: 225px;
-    top: 0;
-    left: 
-    0;
+#bird {
+	margin: 15% 55%;
+	display: none;
+	position: absolute;
+	height: 210px;
+	width: 225px;
+	top: 0;
+	left: 0;
 }
 
-#spoon{
-    position: absolute;
-    display: none;
-    left: 0;
-    right: 0;
-    height: 90vh;
+#spoon {
+	position: absolute;
+	display: none;
+	left: 0;
+	right: 0;
+	height: 90vh;
 }
 
 #pong,
 #breakout,
-#bird { transition: all .2s ease-in-out; }
+#bird {
+	transition: all .2s ease-in-out;
+}
 
 #pong:hover,
-#breakout:hover, 
-#bird:hover  { transform: scale(1.25); }
+#breakout:hover,
+#bird:hover {
+	transform: scale(1.25);
+}
 
-#sleeping{
-    position: absolute;
-    display: none;
-    width: 900px;
-    height: auto;
-    max-height: 600px;
-    z-index: 1;
-    left: 0px;
-    top: 0px;
-    margin-left: 75px;
+#sleeping {
+	position: absolute;
+	display: none;
+	width: 900px;
+	height: auto;
+	max-height: 600px;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+	margin-left: 75px;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+	margin: 0;
+	padding: 0;
+	border: none;
 }
+
+
 /* Styiling the textboxes and position for the whole boxes section */
+
 .textbox-container {
-    position: relative;
-    bottom: 0;
-    min-height: fit-content;
-    height: 18vh;
-    width: 95%;
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    flex-direction: row;
-    border: solid 1px #424542;
-    box-shadow: 1px 1px #e7dfe7, -1px -1px #e7dfe7, 1px -1px #e7dfe7, -1px 1px #e7dfe7, 0 -2px #9c9a9c, -2px 0 #7b757b, 0 2px #424542;
-    /* padding: 5px 10px; */
-    /* margin: 50px 50px 4vh; */
-    margin-left: 25px;
-    background: #9e87cf;
-    background: -moz-linear-gradient(top, #9e87cf 0%, #413855 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9e87cf), color-stop(100%,#413855));
-    background: -webkit-linear-gradient(top, #9e87cf 0%,#413855 100%);
-    background: -o-linear-gradient(top, #9e87cf 0%,#413855 100%);
-    background: -ms-linear-gradient(top, #9e87cf 0%,#413855 100%);
-    background: linear-gradient(to bottom, #9e87cf 0%,#413855 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#413855', endColorstr='#413855',GradientType=0 );
+	position: relative;
+	bottom: 0;
+	min-height: fit-content;
+	height: 19vh;
+	width: 95%;
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+	flex-direction: row;
+	border: solid 1px #424542;
+	box-shadow: 1px 1px #e7dfe7, -1px -1px #e7dfe7, 1px -1px #e7dfe7, -1px 1px #e7dfe7, 0 -2px #9c9a9c, -2px 0 #7b757b, 0 2px #424542;
+	/* padding: 5px 10px; */
+	/* margin: 50px 50px 4vh; */
+	margin-left: 25px;
+	background: #9e87cf;
+	background: -moz-linear-gradient(top, #9e87cf 0%, #413855 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9e87cf), color-stop(100%, #413855));
+	background: -webkit-linear-gradient(top, #9e87cf 0%, #413855 100%);
+	background: -o-linear-gradient(top, #9e87cf 0%, #413855 100%);
+	background: -ms-linear-gradient(top, #9e87cf 0%, #413855 100%);
+	background: linear-gradient(to bottom, #9e87cf 0%, #413855 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#413855', endColorstr='#413855', GradientType=0);
 }
 
-.textbox-container *{
-    color: beige;
-    text-shadow: 2px 2px #212421,
-                 1px 1px #212021;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 8px;
-    font-weight: normal;
-    margin: 5px 0;
-  }
+.textbox-container * {
+	color: beige;
+	text-shadow: 2px 2px #212421, 1px 1px #212021;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 8px;
+	font-weight: normal;
+	margin: 5px 0;
+}
 
-#text-box-second input{
-    background-color: transparent;
-    border: double;
-    padding: 4px;
+#text-box-second input {
+	background-color: transparent;
+	border: double;
+	padding: 4px;
 }
 
 #image-container {
-    text-align: center;
-    margin-top: 30px;
-    object-fit: contain;
+	text-align: center;
+	margin-top: 30px;
+	object-fit: contain;
 }
 
 .text-box-main {
-    width: 66%;
-    height: 300px;
-    border-right: double;
+	width: 66%;
+	height: 300px;
+	border-right: double;
 }
 
 .text-box-second {
-    padding-left: 25px;
-    height: 300px;
-    width: 33%;
+	padding: 15px 25px;
+	height: 300px;
+	width: 33%;
 }
 
-#controls{
-    display: flex;
-    justify-content: space-evenly;
+#text {
+	font-size: 1.4rem!important;
+	padding: 20px;
 }
 
-#next{
-    background-color: #ed5f63;
-    width: 25%;
-    height: 35px;
-    border-radius: 5px;
+#controls {
+	display: flex;
+	justify-content: space-evenly;
 }
 
-#input{
-    color: black;
-    text-shadow: 0 0 white;
-    background: white!important;
-    width: 60%;
+#next {
+	font-size: .8rem;
+	background-color: #ed5f63;
+	width: 25%;
+	height: 35px;
+	border-radius: 5px;
 }
 
-.red{
-    color: red;
+#next-text {
+	font-size: .8rem;
 }
 
-.yellow{
-    color: yellow;
+#next:disabled {
+	color: #9e4245!important;
 }
 
-.green{
-    color: green;
+#input {
+	font-size: .8rem;
+	color: black;
+	text-shadow: 0 0 white;
+	background: white!important;
+	width: 60%;
 }
 
-.d-none{
-    display: none!important;
+#input:disabled {
+	background-color: #777171!important;
 }
 
-.d-block{
-    display: block!important;
+.health-text,
+.energy-text,
+.inebriation-text {
+	font-size: 1rem!important;
+}
+
+#h-1,
+#h-2,
+#h-3,
+#h-4,
+#h-5,
+#e-1,
+#e-2,
+#e-3,
+#e-4,
+#e-5,
+#i-1,
+#i-2,
+#i-3,
+#i-4,
+#i-5 {
+	font-size: 1.4rem;
+	padding: 0px 1px;
+}
+
+.red {
+	color: red;
+}
+
+.yellow {
+	color: yellow;
+}
+
+.green {
+	color: green;
+}
+
+.d-none {
+	display: none!important;
+}
+
+.d-block {
+	display: block!important;
 }
 
 
@@ -218,4 +263,4 @@ o__ __o
                                    /                            |               
                                   o                     o__     o               
                                __/>                     <\__ __/>               
-  */                                                                              
+  */
