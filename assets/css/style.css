@@ -65,6 +65,14 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
     0;
 }
 
+#spoon{
+    position: absolute;
+    display: none;
+    left: 0;
+    right: 0;
+    height: 90vh;
+}
+
 #pong,
 #breakout,
 #bird { transition: all .2s ease-in-out; }
