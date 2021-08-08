@@ -74,6 +74,7 @@ function textChanger() {
     if (count === 4) {
         txt = 'Tea? Coffee? Whiskey?....';
         $('#input').prop("disabled", false);
+        $('#next').prop('disabled', true).text('');
         resetTyper();
     }
     if (count === 5) {
@@ -83,6 +84,8 @@ function textChanger() {
             txt = "That's a sensible choice!";
         }
         $('#input').prop("disabled", true);
+        $('#input').val("");
+        $('#next').prop('disabled', false).text('Next');
         resetTyper();
     }
     if (count === 6) {
@@ -93,7 +96,7 @@ function textChanger() {
         if(whiskey){
             txt = '*cough*';
         } else{
-            txt = 'ahh, I feel more energized and ready to get some work done!'
+            txt = 'Ahh, I feel more energized and ready to get some work done!'
         }
         resetTyper();
     }
@@ -158,7 +161,11 @@ function nextScreen(){
 }
 
 function endGame(){
-    window.alert('Great!\nYou have successfully managed to stay away from distractions\nand stay sober to write your code!\nHere it is:\n' + theCode);
+    if(theCode === "Patrik rules"){
+        window.alert('Yeah, that guy sure is awesome!');
+    } else {
+        window.alert('Great!\nYou have successfully managed to stay away from distractions\nand stay sober to write your code!\nHere it is:\n' + theCode);
+    }
     setTimeout(function () {
         document.location.href = "index.html"
     }, 3000);
