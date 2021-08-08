@@ -61,8 +61,13 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
 #sleeping{
     position: absolute;
     display: none;
-    width: 100vw;
-    height: 100vh;
+    width: 900px;
+    height: auto;
+    max-height: 600px;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    margin-left: 75px;
 }
 
 * {
