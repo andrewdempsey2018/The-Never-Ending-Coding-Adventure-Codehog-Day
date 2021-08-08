@@ -7,12 +7,17 @@ It works best at sizes of 8px, 16px and other multiples of 8.*/
 
 /* font-family: 'Press Start 2P', cursive; */
 
-html {
+/* html {
     height: 100vh;
-}
+} */
 
-body {
+#wrapper {
     background-color: white;
+    height: 600px;
+    width: 800px;
+    position: fixed;
+    border: red 2px solid;
+    overflow: hidden;
     /* background: url('/assets/media/bedroom.png') no-repeat center center fixed;
     background-size: cover;
     height: 70vh; */
@@ -20,19 +25,24 @@ body {
 }
 
 #image{
-    position: absolute;
-    height: 85vh;
-    width: 100%;
+    position: relative;
+    /* height: 85vh; */
+    width: 800px;
+    top: -40px;
 }
 
 .poster{
     position: absolute;
-    height: 15vh;
-    width: 15vw;
+    height: 60px;
+    width: 85px;
+    top: 0;
+    left: 0;
+    /* height: 15vh;
+    width: 15vw; */
 }
 
 #pong{
-    margin: 17% 60%;
+    margin: 17% 63.5%;
 }
 
 #breakout{
