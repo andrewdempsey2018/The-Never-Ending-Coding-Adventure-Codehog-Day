@@ -81,7 +81,8 @@ All of these colours were used throughout the project to create an authentic ret
 
 #### Typography
 
-
+For this project we used the "Press Start 2P" (designed by CodeMan38) as a font.
+This is a pixellated font and it brings out the retro feel of the early era of gaming.
 
 [Back to Table of content](#table-of-content)
 
@@ -152,6 +153,7 @@ ASTEROIDS     https://i.pinimg.com/originals/e8/0f/16/e80f160b42833782d3bb931d5d
 - [Am I Responsive](http://ami.responsivedesign.is/) - Used to create the mockup.
 - [Balsamiq](https://balsamiq.com/) Used to create the wireframes for this project.
 - [Google Developer Tools](https://developer.chrome.com/docs/devtools/) - Used throughout the project for debugging.
+- [Google fonts](https://fonts.google.com/) - Used to find the fonts.
 - [Phaser js](https://phaser.io/) - Used as a game-engine.
 
 
