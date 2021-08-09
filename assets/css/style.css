@@ -58,11 +58,11 @@ body {
 }
 
 #bird {
-	margin: 15% 55%;
-	display: none;
-	position: absolute;
-	height: 210px;
-	width: 225px;
+    margin: 18% 55%;
+    display: none;
+    position: absolute;
+    height: 247px;
+    width: 225px;
 	top: 0;
 	left: 0;
 }
