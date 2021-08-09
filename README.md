@@ -44,14 +44,13 @@ The live link can be found here - [The Never Ending Coding Adventure: Codehog Da
   - [Credits](#credits)
     - [Code snippets](#code-snippets)
   - [Team](#team)
-    - Andrew Dempsey
-    - Helena Johansson
-    - John Doyle
-    - Katherine Biggs
-    - Patrik Österljung
-    - Yorick van den Hurk
-      - [- Special thanks go out to our facilitator mairead.ci](#--special-thanks-go-out-to-our-facilitator-maireadci)
-
+	  - [Andrew Dempsey](https://github.com/andrewdempsey2018)
+    - [Helena Johansson](https://github.com/Odden69)
+    - [John Doyle](https://github.com/Aramantos)
+    - [Katherine Biggs](https://github.com/Kat632)
+    - [Patrik Österljung](https://github.com/oljung)
+    - [Yorick van den Hurk](https://github.com/nowane)
+    - Facilitator Mairéad Hannon
 ---
 
 ## User experience
@@ -120,20 +119,6 @@ The following images in the game were taken from the linked open sources below.
 
 ---
 
-## Features
-
-### Existing features
-
-
-
-### Future features
-
-
-
-[Back to Table of content](#table-of-content)
-
----
-
 ## Technologies
 
   ### Languages
@@ -173,8 +158,6 @@ The following images in the game were taken from the linked open sources below.
 
 
 ## Testing
-
-=========== SEPERATE .MD FILE????
 
 ### Validator Testing 
 
@@ -285,7 +268,7 @@ You could make a copy of the GitHub repository by "Forking" the original reposit
 ### - [Yorick van den Hurk](https://github.com/nowane)
   - I've always had a lot of fun gaming when I was a kid. Seeing this theme for a hackathon come by was the last push I needed to engage more in the Code Institute community. Luckily I landed in an awesome team of truely awesome characters, with who I've been glad to had the pleasure working with.
 
-#### - Special thanks go out to our facilitator mairead.ci
-- Mairead rom Code Institute was extremely generous with her time. She was there for us to make sure we stayed focused on our tasks. She was happy to give us direction and discuss ideas. She was there for us when we had issues & checked in with us for progress updates. Without her, we couldn't have done it, thank you!!
+### - Special thanks go out to our facilitator Mairéad Hannon
+- Mairead from Code Institute was extremely generous with her time. She was there for us to make sure we stayed focused on our tasks. She was happy to give us direction and discuss ideas. She was there for us when we had issues & checked in with us for progress updates. Without her, we couldn't have done it, thank you!!
 
 [Back to Table of content](#table-of-content)
