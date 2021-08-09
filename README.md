@@ -13,28 +13,41 @@ The live link can be found here - [The Never Ending Coding Adventure: Codehog Da
 
 ## Table of content
 
-- [User experience](#user-experience)
-  - [User stories](#user-stories)
-- [Design](#design)
-  - [Wireframes](#wireframes)
-  - [Colour scheme](#color-scheme)
-  - [Typography](#typography)
-  - [Imagery](#imagery)
-- [Features](#features)
-  - [Existing features](#existing-features)
-  - [Future features](#future-features)
-- [Technologies](#technologies)
+- [The Never Ending Coding Adventure: Codehog Day](#the-never-ending-coding-adventure-codehog-day)
+  - [Table of content](#table-of-content)
+  - [User experience](#user-experience)
+    - [User stories](#user-stories)
+    - [Design](#design)
+      - [Wireframes](#wireframes)
+      - [Colour Scheme](#colour-scheme)
+      - [Typography](#typography)
+      - [Imagery](#imagery)
+  - [Features](#features)
+    - [Existing features](#existing-features)
+    - [Future features](#future-features)
+  - [Technologies](#technologies)
     - [Languages](#languages)
     - [Version control- workspace and repository storage](#version-control--workspace-and-repository-storage)
-- [Testing](#testing)
-- [Deployment](#deployment)
+    - [Other technologies](#other-technologies)
+  - [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+    - [Bugs we fixed](#bugs-we-fixed)
+    - [Unfixed Bugs](#unfixed-bugs)
+  - [Deployment](#deployment)
     - [Deployment to Github](#deployment-to-github)
     - [Run code locally](#run-code-locally)
       - [Forking local repository](#forking-local-repository)
       - [Cloning local repository](#cloning-local-repository)
-- [Credits](#credits)
-  - [Code snippets](#code-snippets)
-- [Team](#team)
+  - [Credits](#credits)
+    - [Code snippets](#code-snippets)
+  - [Team](#team)
+    - [- Andrew Dempsey](#--andrew-dempsey)
+    - [- Helena Johansson](#--helena-johansson)
+    - [- John Doyle](#--john-doyle)
+    - [- Katherine Biggs](#--katherine-biggs)
+    - [- Patrik Österljung](#--patrik-österljung)
+    - [- Yorick van den Hurk](#--yorick-van-den-hurk)
+      - [- Special thanks go out to our facilitator mairead.ci](#--special-thanks-go-out-to-our-facilitator-maireadci)
 
 ---
 
@@ -159,6 +172,10 @@ ASTEROIDS     https://i.pinimg.com/originals/e8/0f/16/e80f160b42833782d3bb931d5d
 - [Google fonts](https://fonts.google.com/) - Used to find the fonts.
 - [Phaser js](https://phaser.io/) - Used as a game-engine.
 - [Pinetools] (https://pinetools.com/pixelate-effect-image) - Used to pixelate images.
+- [SFXR] (https://sfxr.me/) - Used to generate sound effects for the minigames
+- [Tiled] (https://www.mapeditor.org/) - Tilemap editor used to make the level for the breakout mini game
+- [Bit5x3] (http://www.mattlag.com/bitfonts/) - Font used for the Pong minigame
+- [Flappy Birdy font] (https://www.fontspace.com/category/flappy-bird) - Used to create the title screen for the Flappy bee mini game
 
 
 ## Testing
@@ -175,8 +192,6 @@ ASTEROIDS     https://i.pinimg.com/originals/e8/0f/16/e80f160b42833782d3bb931d5d
   - No errors were found when passing through the official [JSHint validator](https://jshint.com/)
 
 ### Bugs we fixed
-
-
 
 ### Unfixed Bugs
 
@@ -259,7 +274,7 @@ You could make a copy of the GitHub repository by "Forking" the original reposit
 ## Team
 
 ### - [Andrew Dempsey](https://github.com/andrewdempsey2018)
-  -
+  - I have been a passionate gamer ever since my father bought me a Sega Megadrive. This project was extremely challenging but immensely rewarding. It has introduced me to new technologies and it has highlighted areas that I need to improve. Best of all, it has introduced me to new friends in the coding world! Game on!!
 
 ### - [Helena Johansson](https://github.com/Odden69)
   - I am probably the person in this team with the least gaming experience. But I am the oldest, hence the most retro. Joining this hackathon has been so rewarding. I have learned so much from my fabulous fellow team mates.
@@ -279,5 +294,6 @@ You could make a copy of the GitHub repository by "Forking" the original reposit
 
 
 #### - Special thanks go out to our facilitator mairead.ci
+- Mairead rom Code Institute was extremely generous with her time. She was there for us to make sure we stayed focused on our tasks. She was happy to give us direction and discuss ideas. She was there for us when we had issues & checked in with us for progress updates. Without her, we couldn't have done it, thank you!!
 
 [Back to Table of content](#table-of-content)
