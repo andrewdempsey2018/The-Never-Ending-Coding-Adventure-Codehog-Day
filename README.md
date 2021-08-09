@@ -9,7 +9,8 @@ The live link can be found here - [The Never Ending Coding Adventure: Codehog Da
 
 ---
 
-![Responsive Mockup](#) TO BE ADDED
+![Mockup](assets/media/Screenshot1.png "image_screenshot1")
+![Mockup](assets/media/Screenshot2.png "image_screenshot2")
 
 ---
 
@@ -43,12 +44,12 @@ The live link can be found here - [The Never Ending Coding Adventure: Codehog Da
   - [Credits](#credits)
     - [Code snippets](#code-snippets)
   - [Team](#team)
-    - [- Andrew Dempsey]
-    - [- Helena Johansson]
-    - [- John Doyle]
-    - [- Katherine Biggs]
-    - [- Patrik Österljung]
-    - [- Yorick van den Hurk]
+    - Andrew Dempsey
+    - Helena Johansson
+    - John Doyle
+    - Katherine Biggs
+    - Patrik Österljung
+    - Yorick van den Hurk
       - [- Special thanks go out to our facilitator mairead.ci](#--special-thanks-go-out-to-our-facilitator-maireadci)
 
 ---
@@ -113,16 +114,6 @@ The following images in the game were taken from the linked open sources below.
 - [Flappy Bird Poster](https://i.kym-cdn.com/photos/images/original/000/697/154/ada)
 - [Bedroom](https://www.vecteezy.com/vector-art/157529-free-simple-bedroom-illustration)
 - [Macintosh](https://icon-icons.com/icon/macintosh/131159)
-
-
-
-=========== TO REPLACE OTHERS???
-
-NEW PONG      https://uploads.sitepoint.com/wp-content/uploads/2016/01/1452785857main.png
-NEW BREAKOUT  https://img.itch.zone/aW1nLzY2MDg1MDUucG5n/original/OVVq9f.png
-ALT FLAPPY    https://toppng.com/uploads/preview/flappy-bird-pixel-art-flappy-bird-1156289438531sspmvwnk.png
-MARIO         https://p.kindpng.com/picc/s/255-2557213_black-and-white-mario-blue-slime-pixel-art.png
-ASTEROIDS     https://i.pinimg.com/originals/e8/0f/16/e80f160b42833782d3bb931d5d5bdd3b.jpg
 
 
 [Back to Table of content](#table-of-content)
