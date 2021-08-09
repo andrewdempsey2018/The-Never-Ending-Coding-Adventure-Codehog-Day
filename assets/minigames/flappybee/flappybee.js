@@ -38,9 +38,9 @@ function preload() {
     this.load.image('obstacleTop', 'assets/obstacleTop.png');
     this.load.image('obstacleBottom', 'assets/obstacleBottom.png');
     //this.load.image('ghost', 'ghost.png');
-    this.load.image('bg2', 'assets/bg2.png');
+    this.load.image('bg2', 'assets/bgx.png');
     this.load.image('bg10', 'assets/bg10.png');
-    this.load.image('egg', 'assets/egg.png');
+    this.load.image('egg', 'assets/eggx.png');
     this.load.image('title', 'assets/title.png');
 
     keySpace = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
