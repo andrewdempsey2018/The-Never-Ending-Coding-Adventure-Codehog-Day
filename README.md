@@ -1,7 +1,9 @@
 # The Never Ending Coding Adventure: Codehog Day
 
+![noiselandlogo](assets/media/Noiseland.png "image_noiseland")
+
 This project was built for the 2021 Retro Gaming Hackathon of Code Institute.
-The purpose of the project was to build a retro-styled game based on the earliest developed computer games, as well as growing as (aspirin]g) developers by working together as a team and manage version control of the to-be developed product.
+The purpose of the project was to build a retro-styled game based on the earliest developed computer games, as well as growing as (aspiring) developers by working together as a team and managing version control of the to-be developed product.
 
 The live link can be found here - [The Never Ending Coding Adventure: Codehog Day](https://andrewdempsey2018.github.io/The-Never-Ending-Coding-Adventure-Codehog-Day/)
 
@@ -41,12 +43,12 @@ The live link can be found here - [The Never Ending Coding Adventure: Codehog Da
   - [Credits](#credits)
     - [Code snippets](#code-snippets)
   - [Team](#team)
-    - [- Andrew Dempsey](#--andrew-dempsey)
-    - [- Helena Johansson](#--helena-johansson)
-    - [- John Doyle](#--john-doyle)
-    - [- Katherine Biggs](#--katherine-biggs)
-    - [- Patrik Österljung](#--patrik-österljung)
-    - [- Yorick van den Hurk](#--yorick-van-den-hurk)
+    - [- Andrew Dempsey]
+    - [- Helena Johansson]
+    - [- John Doyle]
+    - [- Katherine Biggs]
+    - [- Patrik Österljung]
+    - [- Yorick van den Hurk]
       - [- Special thanks go out to our facilitator mairead.ci](#--special-thanks-go-out-to-our-facilitator-maireadci)
 
 ---
@@ -103,7 +105,7 @@ This is a pixellated font and it brings out the retro feel of the early era of g
 
 #### Imagery
 
-The following images in the game was taken from the linked open source below.
+The following images in the game were taken from the linked open sources below.
 
 - [Sleeping gif](https://wifflegif.com/gifs/136337-pixel-art-sleeping-gif)
 - [Pong Poster](https://live.staticflickr.com/3320/3669852343_2c2929e121_b.jpg)
@@ -176,6 +178,7 @@ ASTEROIDS     https://i.pinimg.com/originals/e8/0f/16/e80f160b42833782d3bb931d5d
 - [Tiled] (https://www.mapeditor.org/) - Tilemap editor used to make the level for the breakout mini game
 - [Bit5x3] (http://www.mattlag.com/bitfonts/) - Font used for the Pong minigame
 - [Flappy Birdy font] (https://www.fontspace.com/category/flappy-bird) - Used to create the title screen for the Flappy bee mini game
+- [Canva](https://www.canva.com/) - Used to make the Noiseland logo.
 
 
 ## Testing
@@ -283,15 +286,13 @@ You could make a copy of the GitHub repository by "Forking" the original reposit
   - Gaming has always been a passion of mine so this hackathon was a must. A retro game will make a proud addition to the portfolio and it was a great experience shaping it with the team. Hope you all enjoy it.
 
 ### - [Katherine Biggs](https://github.com/Kat632)
-  - I've been gaming since I was about 8. I had an Acorn Electron. These days I'm a Simmer. The fastest thing I can type is "testingcheatsenabled true". This is a Sims joke that probably no one will understand.
+  - I've been gaming since I was about 8. I had an Acorn Electron. These days I'm a Simmer. The fastest thing I can type is "testingcheatsenabled true". This is a Sims joke that probably no one will understand.  When I started this Hackathon, I had no idea that I would be doing the final commit - I didn't even know how to use git!
 
 ### - [Patrik Österljung](https://github.com/oljung)
   - Ever since I played the NES at my uncles when I was five, gaming has been a huge part of my life. When I saw this Hackathon, I had to join even though I knew nothing about what it mean. Now that I know, that it means working with a team to make a project take form, I can safely say this will not be my last. This has been awesome! Thank you guys and please enjoy the game!
-  -
 
 ### - [Yorick van den Hurk](https://github.com/nowane)
   - I've always had a lot of fun gaming when I was a kid. Seeing this theme for a hackathon come by was the last push I needed to engage more in the Code Institute community. Luckily I landed in an awesome team of truely awesome characters, with who I've been glad to had the pleasure working with.
-
 
 #### - Special thanks go out to our facilitator mairead.ci
 - Mairead rom Code Institute was extremely generous with her time. She was there for us to make sure we stayed focused on our tasks. She was happy to give us direction and discuss ideas. She was there for us when we had issues & checked in with us for progress updates. Without her, we couldn't have done it, thank you!!
