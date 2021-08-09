@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-/*Press Start 2P is a bitmap font based on the font design from 1980s Namco arcade games. 
-It works best at sizes of 8px, 16px and other multiples of 8.*/
-
-
-/* font-family: 'Press Start 2P', cursive; */
-
-
-/* html {
-    height: 100vh;
-} */
-
 body {
 	background-color: #b0817f;
 }
@@ -22,12 +11,7 @@ body {
 	position: relative;
 	border: rgba(53, 48, 48, 0.158) 2px solid;
 	overflow: auto;
-	/* background-position-y: -10vh; */
 	margin: auto;
-	/* background: url('/assets/media/bedroom.png') no-repeat center center fixed;
-    background-size: cover;
-    height: 70vh; */
-	/* background-position-y: -10vh; */
 }
 
 #image {
@@ -105,14 +89,11 @@ body {
 	border: none;
 }
 
-
-/* Styiling the textboxes and position for the whole boxes section */
-
 .textbox-container {
 	position: relative;
 	bottom: 0;
 	min-height: fit-content;
-	height: 19vh;
+	height: 200px;
 	width: 95%;
 	display: flex;
 	overflow: hidden;
@@ -120,8 +101,6 @@ body {
 	flex-direction: row;
 	border: solid 1px #424542;
 	box-shadow: 1px 1px #e7dfe7, -1px -1px #e7dfe7, 1px -1px #e7dfe7, -1px 1px #e7dfe7, 0 -2px #9c9a9c, -2px 0 #7b757b, 0 2px #424542;
-	/* padding: 5px 10px; */
-	/* margin: 50px 50px 4vh; */
 	margin-left: 25px;
 	background: #9e87cf;
 	background: -moz-linear-gradient(top, #9e87cf 0%, #413855 100%);
